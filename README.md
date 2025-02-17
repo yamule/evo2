@@ -1,4 +1,4 @@
-# Evo 2: Genome modeling and design across all domains of life
+# Evo 2: DNA modeling and design across all life's domains
 
 </div>
 
