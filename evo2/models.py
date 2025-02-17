@@ -13,7 +13,7 @@ from vortex.model.utils import dotdict, print_rank_0, load_checkpoint
 from evo2.scoring import score_sequences, score_sequences_rc
 from evo2.utils import MODEL_NAMES, HF_MODEL_NAME_MAP, CONFIG_MAP
 
-class evo2_model:
+class Evo2:
     def __init__(self, model_name: str = MODEL_NAMES[1]):
         """
         Load an Evo 2 checkpoint.
