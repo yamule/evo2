@@ -32,7 +32,7 @@ information.
 
 ### Requirements
 
-Evo 2 is based on [StripedHyena 2](https://github.com/Zymrael/vortex) which requires python>=3.11. Evo 2 uses [Transformer Engine](https://github.com/NVIDIA/TransformerEngine) FP8 for some layers which requires an H100 (or other GPU with compute capability ≥8.9). We are actively investigating ways to avoid this requirement.
+Evo 2 is based on [StripedHyena 2](https://github.com/Zymrael/vortex) which requires python>=3.11. Some optional features can take advantage of [Transformer Engine](https://github.com/NVIDIA/TransformerEngine) for FP8 execution when a compatible GPU (compute capability ≥8.9) is available. The library functions without Transformer Engine installed, falling back to standard precision.
 
 ### Installation
 
